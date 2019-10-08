@@ -1,0 +1,15 @@
+body{
+    overflow: fixed;
+}
+h1{
+    color: green;
+}
+#about{
+    background-image: url("https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h3, p{
+    color: white;
+}
