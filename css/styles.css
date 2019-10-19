@@ -118,6 +118,7 @@ section header {
 }
 
 section header h2 {
+    text-align: center;
     color: #557c3e;
     color: #951c49;
 }
@@ -224,6 +225,7 @@ section#skills {
 
 
 .skills-row {
+    height: 20%;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(100px, 1fr));
     grid-row-gap: 15px;
@@ -235,13 +237,20 @@ section#skills {
 }
 
 .skills-row img{
-    border-radius: 50%;
+    border-block: 50%;
     width:100px;
     height:100px;
     border:1px solid #951c49;;
     padding:5px;
 }
 
+section#other {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    grid-row-gap: 15px;
+    padding:100px 0;
+
+}
 
 
 /****************** about section *********************/
@@ -337,9 +346,9 @@ section#about>#random-facts {
 
 }
 
-/************** contact section *********************************/
+/************** contacts *********************************/
 
-section#contact {
+section#contacts {
     display: grid;
     grid-template-rows: repeat(2, auto);
     grid-row-gap: 30px;
@@ -438,7 +447,6 @@ i.fa:hover {
         display: none;
     }
 
-    #nav-links ul li {}
 
     .skills-row .bar {
         max-width: 100vw;
@@ -481,3 +489,5 @@ i.fa:hover {
         display: none;
     }
 }
+
+
